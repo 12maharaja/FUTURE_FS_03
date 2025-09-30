@@ -1,0 +1,66 @@
+.bespoke-container {
+  background: #111;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.bespoke-container h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.bespoke-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  color: #bbb;
+}
+
+.bespoke-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.bespoke-card {
+  background: #222;
+  border-radius: 12px;
+  overflow: hidden;
+  padding: 20px;
+  transition: transform 0.3s;
+}
+
+.bespoke-card:hover {
+  transform: scale(1.05);
+}
+
+.bespoke-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.bespoke-card h3 {
+  margin-top: 15px;
+  font-size: 1.3rem;
+}
+
+.bespoke-card p {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #ccc;
+}
+
+/* 📱 Mobile */
+@media (max-width: 768px) {
+  .bespoke-container h2 {
+    font-size: 2rem;
+  }
+  .bespoke-subtitle {
+    font-size: 1rem;
+  }
+  .bespoke-card img {
+    height: 150px;
+  }
+}

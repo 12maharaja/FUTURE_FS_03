@@ -1,0 +1,111 @@
+.model-details {
+  background: #111;
+  color: white;
+  min-height: 100vh;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.model-hero {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.model-hero img {
+  width: 100%;
+  max-width: 750px; /* ✨ slightly reduce size for balance */
+  max-height: 380px; /* ✨ controlled height */
+  object-fit: cover;
+  border-radius: 12px;
+  margin: 0 auto; /* center align */
+  display: block;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6); /* ✨ luxury shadow */
+}
+
+.model-hero h1 {
+  position: absolute;
+  bottom: 20px;
+  left: 50%; /* center heading */
+  transform: translateX(-50%);
+  font-size: 2.2rem;
+  font-weight: bold;
+  background: rgba(0, 0, 0, 0.65);
+  padding: 12px 24px;
+  border-radius: 8px;
+  letter-spacing: 1px; /* ✨ premium look */
+}
+
+.model-specs {
+  margin: 30px auto;
+  max-width: 600px;
+  text-align: left;
+  background: rgba(255, 255, 255, 0.05); /* ✨ subtle bg */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.model-specs h2 {
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+  border-bottom: 2px solid #444;
+  padding-bottom: 8px;
+}
+
+.model-specs ul {
+  list-style: none;
+  padding: 0;
+}
+
+.model-specs li {
+  padding: 10px 0;
+  border-bottom: 1px solid #333;
+}
+
+.model-description {
+  max-width: 800px;
+  margin: 30px auto;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: #ccc;
+}
+
+.model-cta {
+  margin-top: 40px;
+}
+
+.model-cta button {
+  padding: 14px 30px;
+  font-size: 1.1rem;
+  background: linear-gradient(135deg, #fff, #ccc);
+  color: black;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.model-cta button:hover {
+  background: linear-gradient(135deg, #ddd, #aaa);
+  transform: scale(1.05); /* ✨ small zoom effect */
+}
+
+/* 📱 Mobile */
+@media (max-width: 768px) {
+  .model-hero img {
+    max-width: 100%;
+    max-height: 240px;
+  }
+  .model-hero h1 {
+    font-size: 1.6rem;
+    bottom: 10px;
+    padding: 8px 16px;
+  }
+  .model-specs {
+    font-size: 0.95rem;
+    padding: 15px;
+  }
+  .model-cta button {
+    width: 100%; /* full-width button on mobile */
+  }
+}

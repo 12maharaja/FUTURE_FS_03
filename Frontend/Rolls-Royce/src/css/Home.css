@@ -1,0 +1,40 @@
+.home-container {
+  background: #000; /* luxury dark background */
+  color: white;
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Hero Section spacing */
+.home-container section {
+  padding: 60px 20px;
+}
+
+/* Section headings */
+.home-container h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Subtitle style */
+.home-container p {
+  font-size: 1.1rem;
+  text-align: center;
+  color: #bbb;
+}
+
+/* smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* 📱 Mobile */
+@media (max-width: 768px) {
+  .home-container h2 {
+    font-size: 2rem;
+  }
+  .home-container p {
+    font-size: 1rem;
+  }
+}

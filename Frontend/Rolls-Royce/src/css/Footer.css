@@ -1,0 +1,74 @@
+footer {
+  background: #000;
+  color: #aaa;
+  padding: 40px 20px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+footer h2 {
+  color: white;
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+  letter-spacing: 2px;
+}
+
+footer p {
+  max-width: 600px;
+  margin: 0 auto 20px;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+footer .footer-links {
+  margin-bottom: 20px;
+}
+
+footer .footer-links a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+footer .footer-links a:hover {
+  color: #c0a060; /* 🥂 Rolls-Royce Gold */
+}
+
+footer .footer-social {
+  margin: 20px 0;
+}
+
+footer .footer-social a {
+  margin: 0 10px;
+  font-size: 1.3rem;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+footer .footer-social a:hover {
+  color: #c0a060;
+}
+
+footer .copyright {
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: 15px;
+}
+
+/* 📱 Mobile */
+@media (max-width: 768px) {
+  footer h2 {
+    font-size: 1.5rem;
+  }
+
+  footer .footer-links a {
+    display: block;
+    margin: 8px 0;
+  }
+
+  footer .footer-social a {
+    font-size: 1.1rem;
+  }
+}

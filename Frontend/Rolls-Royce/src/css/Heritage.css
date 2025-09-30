@@ -1,0 +1,56 @@
+.heritage {
+  padding: 80px 20px;
+  background: linear-gradient(to bottom, #111, #000); /* dark luxury bg */
+  color: white;
+  text-align: center;
+}
+
+.heritage h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-family: "Georgia", serif;
+  letter-spacing: 2px;
+}
+
+.heritage p {
+  max-width: 800px;
+  margin: 0 auto 40px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #ddd;
+}
+
+.heritage-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.heritage-images img {
+  width: 350px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+  transition: transform 0.3s ease;
+}
+
+.heritage-images img:hover {
+  transform: scale(1.05);
+}
+
+/* 📱 Mobile responsive */
+@media (max-width: 768px) {
+  .heritage h2 {
+    font-size: 2rem;
+  }
+
+  .heritage p {
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+
+  .heritage-images img {
+    width: 100%;
+    max-width: 90%;
+  }
+}

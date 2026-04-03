@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import car1 from "../assets/car1.jpg";
 import car2 from "../assets/car2.jpg";
 import car3 from "../assets/car3.jpg";
-import { getModels } from "../services/api.jsx";
+import { getModels } from "../Services/api.jsx";
 
 
 function Model() {

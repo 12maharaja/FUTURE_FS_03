@@ -1,5 +1,5 @@
 import React from "react";
-import custom from "../assets/custom Exterior.jpg";
+import custom from "../assets/Custom Exterior.jpg";
 import luxury from "../assets/Luxury Interior.jpg";
 import starlight from "../assets/Starlight Headliner.jpg";
 import color from "../assets/color.jpg";
